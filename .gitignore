@@ -1,0 +1,43 @@
+# macOS & OS files
+.DS_Store
+.AppleDouble
+.LSOverride
+Thumbs.db
+Desktop.ini
+
+# Temporary & cache files
+*.tmp
+*.temp
+*.bak
+*.swp
+*~
+.cache/
+tmp/
+temp/
+
+# Logs
+*.log
+npm-debug.log*
+
+# Environment, secrets & credentials
+.env
+.env.*
+*.pem
+*.key
+*.p12
+*.mobileprovision
+credentials.json
+secrets.json
+
+# Agent, MCP & IDE local state
+.mcp.json
+.cursor/
+.gemini/
+.antigravity/
+.vscode/
+.idea/
+
+# Python / local helper artifacts
+__pycache__/
+*.pyc
+.venv/

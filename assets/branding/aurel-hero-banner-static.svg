@@ -1,0 +1,74 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 440" width="1280" height="440" role="img" aria-label="AUREL Beyond Connection Hero Banner Static">
+  <defs>
+    <linearGradient id="heroBg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#061638"/>
+      <stop offset="52%" stop-color="#080E1C"/>
+      <stop offset="100%" stop-color="#040812"/>
+    </linearGradient>
+    <radialGradient id="halo" cx="0.76" cy="0.50" r="0.45">
+      <stop offset="0%" stop-color="#0866FF" stop-opacity="0.34"/>
+      <stop offset="55%" stop-color="#0047C7" stop-opacity="0.12"/>
+      <stop offset="100%" stop-color="#080E1C" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="iconGrad" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#2286FF"/>
+      <stop offset="100%" stop-color="#0047C7"/>
+    </linearGradient>
+    <linearGradient id="glassCard" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#1E3050" stop-opacity="0.82"/>
+      <stop offset="100%" stop-color="#111B2C" stop-opacity="0.72"/>
+    </linearGradient>
+  </defs>
+  <rect width="1280" height="440" rx="28" fill="url(#heroBg)"/>
+  <rect width="1280" height="440" rx="28" fill="url(#halo)"/>
+  <rect x="1" y="1" width="1278" height="438" rx="27" fill="none" stroke="#3B82F6" stroke-opacity="0.28" stroke-width="1.5"/>
+
+  <!-- Left Identity Column -->
+  <rect x="56" y="54" width="64" height="64" rx="18" fill="url(#iconGrad)" stroke="#9BCBFF" stroke-opacity="0.65" stroke-width="1.4"/>
+  <path d="M 74 100 L 88 70 L 102 100 M 79 90 Q 88 86 97 90" fill="none" stroke="#FFFFFF" stroke-width="4.4" stroke-linecap="round" stroke-linejoin="round"/>
+  <rect x="136" y="70" width="248" height="32" rx="16" fill="#18263C" fill-opacity="0.8" stroke="#9BCBFF" stroke-opacity="0.35" stroke-width="1"/>
+  <text x="260" y="90" text-anchor="middle" fill="#9BCBFF" font-family="'SF Mono', ui-monospace, Menlo, monospace" font-size="11" font-weight="600" letter-spacing="1">IOS PRODUCT DESIGN CONCEPT</text>
+
+  <text x="54" y="198" fill="#FFFFFF" font-family="-apple-system, BlinkMacSystemFont, 'SF Pro Display', 'Avenir Next', sans-serif" font-size="68" font-weight="700" letter-spacing="4">AUREL</text>
+  <text x="56" y="238" fill="#9BCBFF" font-family="-apple-system, BlinkMacSystemFont, 'SF Pro Display', 'Avenir Next', sans-serif" font-size="25" font-weight="600">Beyond Connection.</text>
+  <text x="56" y="276" fill="#DCEBFF" fill-opacity="0.88" font-family="-apple-system, BlinkMacSystemFont, 'SF Pro Text', 'Helvetica Neue', sans-serif" font-size="16">Connect with people. Discover more. Think together.</text>
+  <text x="56" y="302" fill="#9FB0C9" font-family="-apple-system, BlinkMacSystemFont, 'SF Pro Text', 'Helvetica Neue', sans-serif" font-size="14">Messaging, editorial social, short cinema, spaces, and opt-in intelligence in Liquid Glass.</text>
+
+  <rect x="56" y="346" width="388" height="44" rx="22" fill="#111B2C" fill-opacity="0.85" stroke="#253550" stroke-width="1"/>
+  <text x="76" y="373" fill="#FFFFFF" font-family="-apple-system, BlinkMacSystemFont, 'SF Pro Text', sans-serif" font-size="13" font-weight="600">NGOPREK DIGITAL</text>
+  <text x="214" y="373" fill="#9BCBFF" font-family="'SF Mono', ui-monospace, Menlo, monospace" font-size="11">· Connect. Collaborate. Create.</text>
+
+  <!-- Right Orbital Liquid Glass Connection Graph -->
+  <g transform="translate(650, 30)">
+    <circle cx="310" cy="190" r="148" fill="none" stroke="#3B82F6" stroke-opacity="0.22" stroke-width="1.2" stroke-dasharray="4 6"/>
+    <circle cx="310" cy="190" r="98" fill="none" stroke="#9BCBFF" stroke-opacity="0.25" stroke-width="1.2"/>
+
+    <!-- Curved connection pathways -->
+    <path d="M 102 88 C 170 88, 224 140, 266 172" fill="none" stroke="#3B82F6" stroke-opacity="0.65" stroke-width="2"/>
+    <path d="M 102 292 C 170 292, 224 240, 266 208" fill="none" stroke="#3B82F6" stroke-opacity="0.65" stroke-width="2"/>
+    <path d="M 518 88 C 450 88, 396 140, 354 172" fill="none" stroke="#9BCBFF" stroke-opacity="0.65" stroke-width="2"/>
+    <path d="M 518 292 C 450 292, 396 240, 354 208" fill="none" stroke="#9BCBFF" stroke-opacity="0.65" stroke-width="2"/>
+    <path d="M 310 38 L 310 132" fill="none" stroke="#3B82F6" stroke-opacity="0.55" stroke-width="2"/>
+
+    <!-- Center Core: Aurel Intelligence -->
+    <circle cx="310" cy="190" r="56" fill="url(#iconGrad)" stroke="#9BCBFF" stroke-opacity="0.85" stroke-width="2"/>
+    <path d="M 294 204 L 310 170 L 326 204 M 299 194 Q 310 190 321 194" fill="none" stroke="#FFFFFF" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+    <text x="310" y="226" text-anchor="middle" fill="#DCEBFF" font-family="'SF Mono', ui-monospace, monospace" font-size="9" font-weight="700">OPT-IN AI</text>
+
+    <!-- 5 Ecosystem Glass Pills -->
+    <rect x="24" y="64" width="132" height="46" rx="23" fill="url(#glassCard)" stroke="#9BCBFF" stroke-opacity="0.4" stroke-width="1.2"/>
+    <text x="90" y="92" text-anchor="middle" fill="#FFFFFF" font-family="-apple-system, BlinkMacSystemFont, sans-serif" font-size="13" font-weight="600">Aurel Chats</text>
+
+    <rect x="24" y="268" width="132" height="46" rx="23" fill="url(#glassCard)" stroke="#9BCBFF" stroke-opacity="0.4" stroke-width="1.2"/>
+    <text x="90" y="296" text-anchor="middle" fill="#FFFFFF" font-family="-apple-system, BlinkMacSystemFont, sans-serif" font-size="13" font-weight="600">Aurel Clips</text>
+
+    <rect x="464" y="64" width="132" height="46" rx="23" fill="url(#glassCard)" stroke="#9BCBFF" stroke-opacity="0.4" stroke-width="1.2"/>
+    <text x="530" y="92" text-anchor="middle" fill="#FFFFFF" font-family="-apple-system, BlinkMacSystemFont, sans-serif" font-size="13" font-weight="600">Aurel Social</text>
+
+    <rect x="464" y="268" width="132" height="46" rx="23" fill="url(#glassCard)" stroke="#9BCBFF" stroke-opacity="0.4" stroke-width="1.2"/>
+    <text x="530" y="296" text-anchor="middle" fill="#FFFFFF" font-family="-apple-system, BlinkMacSystemFont, sans-serif" font-size="13" font-weight="600">Aurel Spaces</text>
+
+    <rect x="234" y="10" width="152" height="40" rx="20" fill="url(#glassCard)" stroke="#3B82F6" stroke-opacity="0.55" stroke-width="1.2"/>
+    <text x="310" y="34" text-anchor="middle" fill="#DCEBFF" font-family="'SF Mono', ui-monospace, monospace" font-size="11" font-weight="600">LIQUID GLASS UI</text>
+  </g>
+</svg>

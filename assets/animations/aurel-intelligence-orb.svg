@@ -1,0 +1,58 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 920 300" width="920" height="300" role="img" aria-label="AUREL Intelligence Listening Thinking Responding Visualization">
+  <defs>
+    <radialGradient id="orbCore" cx="0.4" cy="0.32" r="0.68">
+      <stop offset="0%" stop-color="#DCEBFF"/>
+      <stop offset="45%" stop-color="#3B82F6"/>
+      <stop offset="100%" stop-color="#0047C7"/>
+    </radialGradient>
+  </defs>
+  <rect width="920" height="300" rx="24" fill="#080E1C" stroke="#253550" stroke-width="1.5"/>
+  <text x="36" y="40" fill="#9BCBFF" font-family="'SF Mono', ui-monospace, monospace" font-size="11" font-weight="700" letter-spacing="1">CONCEPTUAL MOTION · AUREL INTELLIGENCE STATES (SIGNATURE BLUE · ZERO PURPLE)</text>
+  <text x="36" y="64" fill="#F5F8FF" font-family="-apple-system, BlinkMacSystemFont, 'SF Pro Display', sans-serif" font-size="18" font-weight="700">Listening · Thinking · Structured Opt-In Response</text>
+
+  <!-- State 1: Listening -->
+  <g transform="translate(36, 86)">
+    <rect width="270" height="184" rx="20" fill="#111B2C" stroke="#3B82F6" stroke-opacity="0.45" stroke-width="1.2"/>
+    <text x="20" y="28" fill="#9BCBFF" font-family="'SF Mono', ui-monospace, monospace" font-size="10" font-weight="700">01 · LISTENING (VOICE ORB)</text>
+    <circle cx="88" cy="108" r="46" fill="#0866FF" fill-opacity="0.16">
+      <animate attributeName="r" values="42;50;42" dur="2.6s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="88" cy="108" r="32" fill="url(#orbCore)" stroke="#9BCBFF" stroke-width="1.6"/>
+    <!-- Acoustic waveform bars -->
+    <rect x="148" y="96" width="6" height="24" rx="3" fill="#3B82F6"><animate attributeName="height" values="14;34;14" dur="1.1s" repeatCount="indefinite"/><animate attributeName="y" values="101;91;101" dur="1.1s" repeatCount="indefinite"/></rect>
+    <rect x="162" y="88" width="6" height="40" rx="3" fill="#9BCBFF"><animate attributeName="height" values="36;16;36" dur="0.95s" repeatCount="indefinite"/><animate attributeName="y" values="90;100;90" dur="0.95s" repeatCount="indefinite"/></rect>
+    <rect x="176" y="82" width="6" height="52" rx="3" fill="#FFFFFF"><animate attributeName="height" values="20;50;20" dur="1.25s" repeatCount="indefinite"/><animate attributeName="y" values="98;83;98" dur="1.25s" repeatCount="indefinite"/></rect>
+    <rect x="190" y="90" width="6" height="36" rx="3" fill="#3B82F6"><animate attributeName="height" values="38;18;38" dur="1.05s" repeatCount="indefinite"/><animate attributeName="y" values="89;99;89" dur="1.05s" repeatCount="indefinite"/></rect>
+    <rect x="204" y="98" width="6" height="20" rx="3" fill="#9BCBFF"><animate attributeName="height" values="16;32;16" dur="1.15s" repeatCount="indefinite"/><animate attributeName="y" values="100;92;100" dur="1.15s" repeatCount="indefinite"/></rect>
+    <text x="20" y="168" fill="#9FB0C9" font-family="-apple-system, sans-serif" font-size="11">Active microphone · Live transcript</text>
+  </g>
+
+  <!-- State 2: Thinking -->
+  <g transform="translate(325, 86)">
+    <rect width="270" height="184" rx="20" fill="#111B2C" stroke="#253550" stroke-width="1.2"/>
+    <text x="20" y="28" fill="#9BCBFF" font-family="'SF Mono', ui-monospace, monospace" font-size="10" font-weight="700">02 · THINKING (SCOPED CONTEXT)</text>
+    <rect x="20" y="54" width="230" height="36" rx="14" fill="#10203E" stroke="#3B82F6" stroke-opacity="0.5"/>
+    <text x="34" y="76" fill="#DCEBFF" font-family="'SF Mono', ui-monospace, monospace" font-size="10">SCOPE: 2 SPACES · NO PRIVATE DMS</text>
+    <!-- Calm blue pulse dots -->
+    <circle cx="96" cy="122" r="7" fill="#0866FF"><animate attributeName="opacity" values="0.25;1;0.25" dur="1.5s" begin="0s" repeatCount="indefinite"/></circle>
+    <circle cx="135" cy="122" r="7" fill="#3B82F6"><animate attributeName="opacity" values="0.25;1;0.25" dur="1.5s" begin="0.3s" repeatCount="indefinite"/></circle>
+    <circle cx="174" cy="122" r="7" fill="#9BCBFF"><animate attributeName="opacity" values="0.25;1;0.25" dur="1.5s" begin="0.6s" repeatCount="indefinite"/></circle>
+    <text x="20" y="168" fill="#9FB0C9" font-family="-apple-system, sans-serif" font-size="11">Retrieving authorized sources only</text>
+  </g>
+
+  <!-- State 3: Responding -->
+  <g transform="translate(614, 86)">
+    <rect width="270" height="184" rx="20" fill="#111B2C" stroke="#24B47E" stroke-opacity="0.55" stroke-width="1.2"/>
+    <text x="20" y="28" fill="#6EE7B7" font-family="'SF Mono', ui-monospace, monospace" font-size="10" font-weight="700">03 · RESPONDING (USER APPROVAL)</text>
+    <rect x="20" y="48" width="230" height="10" rx="5" fill="#DCEBFF" fill-opacity="0.85"/>
+    <rect x="20" y="68" width="194" height="10" rx="5" fill="#9FB0C9" fill-opacity="0.55"/>
+    <rect x="20" y="88" width="160" height="10" rx="5" fill="#9FB0C9" fill-opacity="0.45">
+      <animate attributeName="width" values="60;188;188" keyTimes="0;0.65;1" dur="3.6s" repeatCount="indefinite"/>
+    </rect>
+    <rect x="20" y="114" width="122" height="32" rx="16" fill="#0866FF"/>
+    <text x="81" y="134" text-anchor="middle" fill="#FFFFFF" font-family="-apple-system, sans-serif" font-size="11" font-weight="700">Insert Draft</text>
+    <rect x="150" y="114" width="100" height="32" rx="16" fill="#18263C" stroke="#253550"/>
+    <text x="200" y="134" text-anchor="middle" fill="#DCEBFF" font-family="-apple-system, sans-serif" font-size="11">Dismiss</text>
+    <text x="20" y="168" fill="#9FB0C9" font-family="-apple-system, sans-serif" font-size="11">Explicit tap required before sending</text>
+  </g>
+</svg>

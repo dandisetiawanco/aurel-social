@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512" role="img" aria-label="AUREL iOS App Icon">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="0.85" y2="1">
+      <stop offset="0%" stop-color="#1E82FF"/>
+      <stop offset="52%" stop-color="#0866FF"/>
+      <stop offset="100%" stop-color="#003EB5"/>
+    </linearGradient>
+    <radialGradient id="spec" cx="0.32" cy="0.22" r="0.72">
+      <stop offset="0%" stop-color="#FFFFFF" stop-opacity="0.34"/>
+      <stop offset="55%" stop-color="#9BCBFF" stop-opacity="0.10"/>
+      <stop offset="100%" stop-color="#0047C7" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="glass" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#FFFFFF" stop-opacity="0.34"/>
+      <stop offset="100%" stop-color="#FFFFFF" stop-opacity="0.10"/>
+    </linearGradient>
+  </defs>
+  <rect x="16" y="16" width="480" height="480" rx="112" fill="url(#bg)"/>
+  <rect x="16" y="16" width="480" height="480" rx="112" fill="url(#spec)"/>
+  <circle cx="256" cy="256" r="176" fill="none" stroke="#FFFFFF" stroke-opacity="0.18" stroke-width="2"/>
+  <rect x="116" y="116" width="280" height="280" rx="76" fill="url(#glass)" stroke="#FFFFFF" stroke-opacity="0.48" stroke-width="3"/>
+  <path d="M 184 334 L 256 172 L 328 334" fill="none" stroke="#FFFFFF" stroke-width="22" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M 212 280 Q 256 262 300 280" fill="none" stroke="#DCEBFF" stroke-width="16" stroke-linecap="round"/>
+</svg>

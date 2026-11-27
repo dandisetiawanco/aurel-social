@@ -1,0 +1,71 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 660" width="1200" height="660" role="img" aria-label="AUREL Proposed Technical Architecture Diagram">
+  <rect width="1200" height="660" rx="28" fill="#080E1C" stroke="#253550" stroke-width="1.5"/>
+  <rect x="40" y="32" width="332" height="28" rx="14" fill="#10203E" stroke="#3B82F6" stroke-opacity="0.7"/>
+  <text x="206" y="50" text-anchor="middle" fill="#9BCBFF" font-family="'SF Mono', ui-monospace, monospace" font-size="10" font-weight="700">PROPOSED ARCHITECTURE · DESIGN CONCEPT ONLY</text>
+  <text x="40" y="90" fill="#F5F8FF" font-family="-apple-system, BlinkMacSystemFont, 'SF Pro Display', sans-serif" font-size="26" font-weight="700">Proposed Future Production Stack (Not Yet Implemented)</text>
+
+  <!-- Layer 1: Mobile Client -->
+  <rect x="40" y="118" width="1120" height="92" rx="20" fill="#111B2C" stroke="#3B82F6" stroke-opacity="0.55" stroke-width="1.3"/>
+  <text x="64" y="146" fill="#9BCBFF" font-family="'SF Mono', ui-monospace, monospace" font-size="10" font-weight="700">01 · CLIENT LAYER (IOS FIRST)</text>
+  <text x="64" y="172" fill="#FFFFFF" font-family="-apple-system, sans-serif" font-size="16" font-weight="700">Flutter / Dart Mobile Core + Optional Native SwiftUI Modules</text>
+  <text x="64" y="194" fill="#9FB0C9" font-family="-apple-system, sans-serif" font-size="13">Native iOS translucency materials · Offline local draft cache · WebRTC media client · Passkey / Session SDK</text>
+
+  <!-- Connector down -->
+  <line x1="600" y1="210" x2="600" y2="238" stroke="#3B82F6" stroke-width="2"/>
+
+  <!-- Layer 2: Edge & API Gateway -->
+  <rect x="40" y="238" width="1120" height="70" rx="18" fill="#10203E" stroke="#3B82F6" stroke-opacity="0.65" stroke-width="1.3"/>
+  <text x="64" y="266" fill="#9BCBFF" font-family="'SF Mono', ui-monospace, monospace" font-size="10" font-weight="700">02 · EDGE, API GATEWAY &amp; SECURITY BOUNDARY</text>
+  <text x="64" y="290" fill="#F5F8FF" font-family="-apple-system, sans-serif" font-size="14">HTTPS / REST + WebSocket Gateway · Auth &amp; Session Guard · Rate Limits · Consent Policy Enforcement · Moderation Hooks</text>
+
+  <!-- Connectors down to 4 service columns -->
+  <line x1="172" y1="308" x2="172" y2="338" stroke="#3B82F6" stroke-width="1.8"/>
+  <line x1="456" y1="308" x2="456" y2="338" stroke="#3B82F6" stroke-width="1.8"/>
+  <line x1="744" y1="308" x2="744" y2="338" stroke="#9BCBFF" stroke-width="1.8"/>
+  <line x1="1028" y1="308" x2="1028" y2="338" stroke="#9BCBFF" stroke-width="1.8"/>
+
+  <!-- Layer 3: Four Service Domains -->
+  <rect x="40" y="338" width="264" height="168" rx="20" fill="#111B2C" stroke="#253550" stroke-width="1.2"/>
+  <text x="60" y="366" fill="#9BCBFF" font-family="'SF Mono', ui-monospace, monospace" font-size="10" font-weight="700">MESSAGING &amp; PRESENCE</text>
+  <text x="60" y="392" fill="#FFFFFF" font-family="-apple-system, sans-serif" font-size="15" font-weight="700">Go WebSocket + FastAPI</text>
+  <text x="60" y="418" fill="#9FB0C9" font-family="-apple-system, sans-serif" font-size="12">· Real-time 1:1 &amp; group fanout</text>
+  <text x="60" y="438" fill="#9FB0C9" font-family="-apple-system, sans-serif" font-size="12">· Delivery / read receipts</text>
+  <text x="60" y="458" fill="#9FB0C9" font-family="-apple-system, sans-serif" font-size="12">· Reactions &amp; voice metadata</text>
+  <text x="60" y="478" fill="#9FB0C9" font-family="-apple-system, sans-serif" font-size="12">· Push notification workers</text>
+
+  <rect x="324" y="338" width="264" height="168" rx="20" fill="#111B2C" stroke="#253550" stroke-width="1.2"/>
+  <text x="344" y="366" fill="#9BCBFF" font-family="'SF Mono', ui-monospace, monospace" font-size="10" font-weight="700">SOCIAL &amp; SPACES</text>
+  <text x="344" y="392" fill="#FFFFFF" font-family="-apple-system, sans-serif" font-size="15" font-weight="700">FastAPI Domain Services</text>
+  <text x="344" y="418" fill="#9FB0C9" font-family="-apple-system, sans-serif" font-size="12">· Feed, Stories &amp; Explore graph</text>
+  <text x="344" y="438" fill="#9FB0C9" font-family="-apple-system, sans-serif" font-size="12">· Communities &amp; channels</text>
+  <text x="344" y="458" fill="#9FB0C9" font-family="-apple-system, sans-serif" font-size="12">· Audience &amp; blocking controls</text>
+  <text x="344" y="478" fill="#9FB0C9" font-family="-apple-system, sans-serif" font-size="12">· AI disclosure metadata tags</text>
+
+  <rect x="612" y="338" width="264" height="168" rx="20" fill="#111B2C" stroke="#253550" stroke-width="1.2"/>
+  <text x="632" y="366" fill="#9BCBFF" font-family="'SF Mono', ui-monospace, monospace" font-size="10" font-weight="700">MEDIA &amp; REAL-TIME RTC</text>
+  <text x="632" y="392" fill="#FFFFFF" font-family="-apple-system, sans-serif" font-size="15" font-weight="700">WebRTC + FFmpeg Pipeline</text>
+  <text x="632" y="418" fill="#9FB0C9" font-family="-apple-system, sans-serif" font-size="12">· Audio &amp; HD video calls</text>
+  <text x="632" y="438" fill="#9FB0C9" font-family="-apple-system, sans-serif" font-size="12">· 9:16 Clips HLS transcoding</text>
+  <text x="632" y="458" fill="#9FB0C9" font-family="-apple-system, sans-serif" font-size="12">· S3-compatible object storage</text>
+  <text x="632" y="478" fill="#9FB0C9" font-family="-apple-system, sans-serif" font-size="12">· Global edge CDN delivery</text>
+
+  <rect x="896" y="338" width="264" height="168" rx="20" fill="#0E234E" stroke="#3B82F6" stroke-opacity="0.75" stroke-width="1.3"/>
+  <text x="916" y="366" fill="#9BCBFF" font-family="'SF Mono', ui-monospace, monospace" font-size="10" font-weight="700">AUREL INTELLIGENCE (OPT-IN)</text>
+  <text x="916" y="392" fill="#FFFFFF" font-family="-apple-system, sans-serif" font-size="15" font-weight="700">Permission-Scoped AI Layer</text>
+  <text x="916" y="418" fill="#DCEBFF" font-family="-apple-system, sans-serif" font-size="12">· Multi-provider LLM gateway</text>
+  <text x="916" y="438" fill="#DCEBFF" font-family="-apple-system, sans-serif" font-size="12">· pgvector semantic retrieval</text>
+  <text x="916" y="458" fill="#DCEBFF" font-family="-apple-system, sans-serif" font-size="12">· Speech-to-text &amp; TTS voice</text>
+  <text x="916" y="478" fill="#6EE7B7" font-family="-apple-system, sans-serif" font-size="12">· Explicit per-source ACL checks</text>
+
+  <!-- Connectors down to Data Layer -->
+  <line x1="172" y1="506" x2="172" y2="536" stroke="#253550" stroke-width="1.8"/>
+  <line x1="456" y1="506" x2="456" y2="536" stroke="#253550" stroke-width="1.8"/>
+  <line x1="744" y1="506" x2="744" y2="536" stroke="#253550" stroke-width="1.8"/>
+  <line x1="1028" y1="506" x2="1028" y2="536" stroke="#3B82F6" stroke-width="1.8"/>
+
+  <!-- Layer 4: Data & Notifications -->
+  <rect x="40" y="536" width="1120" height="90" rx="20" fill="#111B2C" stroke="#253550" stroke-width="1.2"/>
+  <text x="64" y="564" fill="#9BCBFF" font-family="'SF Mono', ui-monospace, monospace" font-size="10" font-weight="700">04 · DATA PERSISTENCE, VECTOR STORAGE &amp; ASYNC WORKERS</text>
+  <text x="64" y="592" fill="#F5F8FF" font-family="-apple-system, sans-serif" font-size="14">PostgreSQL + pgvector  ·  Redis (Pub/Sub, Presence, Sessions)  ·  S3 Media Buckets  ·  Background Workers (Transcode, Digest, APNs Push)</text>
+  <text x="64" y="614" fill="#9FB0C9" font-family="-apple-system, sans-serif" font-size="12">Note: Architectural blueprint for future implementation phases. No backend services, databases, or live encryption protocols exist in this design repository.</text>
+</svg>

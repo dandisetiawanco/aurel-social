@@ -1,0 +1,53 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 320" width="960" height="320" role="img" aria-label="AUREL Connected Super App Ecosystem Animation">
+  <defs>
+    <path id="e1" d="M 192 98 C 300 98, 360 144, 424 162"/>
+    <path id="e2" d="M 192 224 C 300 224, 360 184, 424 168"/>
+    <path id="e3" d="M 768 98 C 660 98, 600 144, 536 162"/>
+    <path id="e4" d="M 768 224 C 660 224, 600 184, 536 168"/>
+    <path id="e5" d="M 480 62 L 480 112"/>
+  </defs>
+  <rect width="960" height="320" rx="24" fill="#080E1C" stroke="#253550" stroke-width="1.5"/>
+  <text x="36" y="38" fill="#9BCBFF" font-family="'SF Mono', ui-monospace, monospace" font-size="11" font-weight="700" letter-spacing="1">CONCEPTUAL MOTION · UNIFIED AUREL ECOSYSTEM WITH CONSENT-GATED CONTEXT</text>
+
+  <use href="#e1" fill="none" stroke="#3B82F6" stroke-opacity="0.45" stroke-width="2"/>
+  <use href="#e2" fill="none" stroke="#3B82F6" stroke-opacity="0.45" stroke-width="2"/>
+  <use href="#e3" fill="none" stroke="#9BCBFF" stroke-opacity="0.45" stroke-width="2"/>
+  <use href="#e4" fill="none" stroke="#9BCBFF" stroke-opacity="0.45" stroke-width="2"/>
+  <use href="#e5" fill="none" stroke="#3B82F6" stroke-opacity="0.45" stroke-width="2"/>
+
+  <circle r="4.5" fill="#9BCBFF"><animateMotion dur="3.2s" repeatCount="indefinite"><mpath href="#e1"/></animateMotion></circle>
+  <circle r="4.5" fill="#3B82F6"><animateMotion dur="3.6s" begin="0.7s" repeatCount="indefinite"><mpath href="#e2"/></animateMotion></circle>
+  <circle r="4.5" fill="#9BCBFF"><animateMotion dur="3.4s" begin="1.1s" repeatCount="indefinite"><mpath href="#e3"/></animateMotion></circle>
+  <circle r="4.5" fill="#DCEBFF"><animateMotion dur="3.8s" begin="1.8s" repeatCount="indefinite"><mpath href="#e4"/></animateMotion></circle>
+  <circle r="4" fill="#9BCBFF"><animateMotion dur="2.6s" begin="0.3s" repeatCount="indefinite"><mpath href="#e5"/></animateMotion></circle>
+
+  <!-- Center Node -->
+  <rect x="382" y="112" width="196" height="106" rx="28" fill="#0866FF" stroke="#9BCBFF" stroke-width="1.8"/>
+  <text x="480" y="152" text-anchor="middle" fill="#FFFFFF" font-family="-apple-system, BlinkMacSystemFont, sans-serif" font-size="16" font-weight="700">Aurel Intelligence</text>
+  <text x="480" y="175" text-anchor="middle" fill="#DCEBFF" font-family="'SF Mono', ui-monospace, monospace" font-size="10">OPT-IN CONTEXT LAYER</text>
+  <text x="480" y="196" text-anchor="middle" fill="#DCEBFF" font-family="-apple-system, sans-serif" font-size="11">Voice · Vision · Summaries</text>
+
+  <!-- 5 Outer Pillars -->
+  <rect x="42" y="70" width="150" height="58" rx="18" fill="#111B2C" stroke="#3B82F6" stroke-opacity="0.5"/>
+  <text x="117" y="96" text-anchor="middle" fill="#FFFFFF" font-family="-apple-system, sans-serif" font-size="14" font-weight="700">Aurel Chats</text>
+  <text x="117" y="114" text-anchor="middle" fill="#9FB0C9" font-family="'SF Mono', ui-monospace, monospace" font-size="9">DMs · VOICE · CALLS</text>
+
+  <rect x="42" y="196" width="150" height="58" rx="18" fill="#111B2C" stroke="#3B82F6" stroke-opacity="0.5"/>
+  <text x="117" y="222" text-anchor="middle" fill="#FFFFFF" font-family="-apple-system, sans-serif" font-size="14" font-weight="700">Aurel Clips</text>
+  <text x="117" y="240" text-anchor="middle" fill="#9FB0C9" font-family="'SF Mono', ui-monospace, monospace" font-size="9">9:16 SHORT CINEMA</text>
+
+  <rect x="768" y="70" width="150" height="58" rx="18" fill="#111B2C" stroke="#9BCBFF" stroke-opacity="0.5"/>
+  <text x="843" y="96" text-anchor="middle" fill="#FFFFFF" font-family="-apple-system, sans-serif" font-size="14" font-weight="700">Aurel Social</text>
+  <text x="843" y="114" text-anchor="middle" fill="#9FB0C9" font-family="'SF Mono', ui-monospace, monospace" font-size="9">FEED · STORIES · EXPLORE</text>
+
+  <rect x="768" y="196" width="150" height="58" rx="18" fill="#111B2C" stroke="#9BCBFF" stroke-opacity="0.5"/>
+  <text x="843" y="222" text-anchor="middle" fill="#FFFFFF" font-family="-apple-system, sans-serif" font-size="14" font-weight="700">Aurel Spaces</text>
+  <text x="843" y="240" text-anchor="middle" fill="#9FB0C9" font-family="'SF Mono', ui-monospace, monospace" font-size="9">COMMUNITIES · EVENTS</text>
+
+  <rect x="382" y="246" width="196" height="48" rx="16" fill="#111B2C" stroke="#253550"/>
+  <text x="480" y="268" text-anchor="middle" fill="#F5F8FF" font-family="-apple-system, sans-serif" font-size="12" font-weight="700">Aurel Studio &amp; Creator Tools</text>
+  <text x="480" y="284" text-anchor="middle" fill="#9FB0C9" font-family="'SF Mono', ui-monospace, monospace" font-size="9">POST · STORY · CLIP · DISCLOSURE</text>
+
+  <rect x="382" y="18" width="196" height="44" rx="22" fill="#18263C" stroke="#3B82F6" stroke-opacity="0.6"/>
+  <text x="480" y="45" text-anchor="middle" fill="#9BCBFF" font-family="'SF Mono', ui-monospace, monospace" font-size="10" font-weight="700">USER CONSENT BOUNDARY</text>
+</svg>

@@ -1,0 +1,58 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1160 540" width="1160" height="540" role="img" aria-label="AUREL Six-Module Product Ecosystem Architecture Diagram">
+  <rect width="1160" height="540" rx="28" fill="#F7FAFF" stroke="#DCEBFF" stroke-width="1.5"/>
+  <text x="44" y="46" fill="#0866FF" font-family="'SF Mono', ui-monospace, monospace" font-size="11" font-weight="700" letter-spacing="1">AUREL PRODUCT ECOSYSTEM · SIX INTEGRATED EXPERIENCES</text>
+  <text x="44" y="76" fill="#101828" font-family="-apple-system, BlinkMacSystemFont, 'SF Pro Display', sans-serif" font-size="26" font-weight="700">Unified Social Architecture with Opt-In Contextual Intelligence</text>
+
+  <!-- Subtle Curved Connectors -->
+  <path d="M 354 184 C 410 184, 420 264, 456 264" fill="none" stroke="#0866FF" stroke-opacity="0.45" stroke-width="2"/>
+  <path d="M 354 344 C 410 344, 420 282, 456 282" fill="none" stroke="#0866FF" stroke-opacity="0.45" stroke-width="2"/>
+  <path d="M 806 184 C 750 184, 740 264, 704 264" fill="none" stroke="#0866FF" stroke-opacity="0.45" stroke-width="2"/>
+  <path d="M 806 344 C 750 344, 740 282, 704 282" fill="none" stroke="#0866FF" stroke-opacity="0.45" stroke-width="2"/>
+  <path d="M 580 356 L 580 404" fill="none" stroke="#0866FF" stroke-opacity="0.45" stroke-width="2" stroke-dasharray="5 5"/>
+
+  <!-- Left Top: AUREL Chats -->
+  <rect x="44" y="114" width="310" height="136" rx="22" fill="#FFFFFF" stroke="#E0E7F0" stroke-width="1.4"/>
+  <text x="66" y="142" fill="#0866FF" font-family="'SF Mono', ui-monospace, monospace" font-size="10" font-weight="700">01 · COMMUNICATION</text>
+  <text x="66" y="168" fill="#101828" font-family="-apple-system, sans-serif" font-size="19" font-weight="700">AUREL Chats</text>
+  <text x="66" y="194" fill="#52627A" font-family="-apple-system, sans-serif" font-size="13">Direct threads, groups, voice notes with</text>
+  <text x="66" y="213" fill="#52627A" font-family="-apple-system, sans-serif" font-size="13">transcripts, audio/video calls, shared media.</text>
+  <text x="66" y="236" fill="#0866FF" font-family="'SF Mono', ui-monospace, monospace" font-size="10" font-weight="700">OPT-IN: Reply Assist · Translate</text>
+
+  <!-- Left Bottom: AUREL Clips -->
+  <rect x="44" y="276" width="310" height="136" rx="22" fill="#FFFFFF" stroke="#E0E7F0" stroke-width="1.4"/>
+  <text x="66" y="304" fill="#0866FF" font-family="'SF Mono', ui-monospace, monospace" font-size="10" font-weight="700">02 · SHORT CINEMA</text>
+  <text x="66" y="330" fill="#101828" font-family="-apple-system, sans-serif" font-size="19" font-weight="700">AUREL Clips</text>
+  <text x="66" y="356" fill="#52627A" font-family="-apple-system, sans-serif" font-size="13">Full-bleed 9:16 vertical feed, Dark Liquid Glass</text>
+  <text x="66" y="375" fill="#52627A" font-family="-apple-system, sans-serif" font-size="13">controls, comments sheet, discovery grid.</text>
+  <text x="66" y="398" fill="#0866FF" font-family="'SF Mono', ui-monospace, monospace" font-size="10" font-weight="700">OPT-IN: AI Subtitles · Vibe Summary</text>
+
+  <!-- Center Hub: AUREL Intelligence -->
+  <rect x="456" y="190" width="248" height="166" rx="28" fill="#0866FF"/>
+  <rect x="472" y="206" width="216" height="26" rx="13" fill="#FFFFFF" fill-opacity="0.18"/>
+  <text x="580" y="223" text-anchor="middle" fill="#FFFFFF" font-family="'SF Mono', ui-monospace, monospace" font-size="10" font-weight="700">EXPLICIT PERMISSION ONLY</text>
+  <text x="580" y="262" text-anchor="middle" fill="#FFFFFF" font-family="-apple-system, sans-serif" font-size="21" font-weight="700">AUREL Intelligence</text>
+  <text x="580" y="288" text-anchor="middle" fill="#DCEBFF" font-family="-apple-system, sans-serif" font-size="13">Voice Orb · Media Vision</text>
+  <text x="580" y="308" text-anchor="middle" fill="#DCEBFF" font-family="-apple-system, sans-serif" font-size="13">Structured Threads · Digest</text>
+  <text x="580" y="338" text-anchor="middle" fill="#9BCBFF" font-family="'SF Mono', ui-monospace, monospace" font-size="10" font-weight="700">PRIVATE DMS EXCLUDED BY DEFAULT</text>
+
+  <!-- Right Top: AUREL Social -->
+  <rect x="806" y="114" width="310" height="136" rx="22" fill="#FFFFFF" stroke="#E0E7F0" stroke-width="1.4"/>
+  <text x="828" y="142" fill="#0866FF" font-family="'SF Mono', ui-monospace, monospace" font-size="10" font-weight="700">03 · EDITORIAL SOCIAL</text>
+  <text x="828" y="168" fill="#101828" font-family="-apple-system, sans-serif" font-size="19" font-weight="700">AUREL Social</text>
+  <text x="828" y="194" fill="#52627A" font-family="-apple-system, sans-serif" font-size="13">Photography-first feed, full-bleed stories,</text>
+  <text x="828" y="213" fill="#52627A" font-family="-apple-system, sans-serif" font-size="13">threaded discussions, Explore, creator profiles.</text>
+  <text x="828" y="236" fill="#0866FF" font-family="'SF Mono', ui-monospace, monospace" font-size="10" font-weight="700">OPT-IN: Caption Drafts · Alt Text</text>
+
+  <!-- Right Bottom: AUREL Spaces -->
+  <rect x="806" y="276" width="310" height="136" rx="22" fill="#FFFFFF" stroke="#E0E7F0" stroke-width="1.4"/>
+  <text x="828" y="304" fill="#0866FF" font-family="'SF Mono', ui-monospace, monospace" font-size="10" font-weight="700">04 · COMMUNITIES</text>
+  <text x="828" y="330" fill="#101828" font-family="-apple-system, sans-serif" font-size="19" font-weight="700">AUREL Spaces</text>
+  <text x="828" y="356" fill="#52627A" font-family="-apple-system, sans-serif" font-size="13">Topic communities, broadcast channels,</text>
+  <text x="828" y="375" fill="#52627A" font-family="-apple-system, sans-serif" font-size="13">live events, RSVP workflows, curated announcements.</text>
+  <text x="828" y="398" fill="#0866FF" font-family="'SF Mono', ui-monospace, monospace" font-size="10" font-weight="700">OPT-IN: Channel Catch-Up · Digest</text>
+
+  <!-- Bottom Bar: AUREL Studio + Privacy Foundation -->
+  <rect x="44" y="438" width="1072" height="72" rx="20" fill="#080E1C"/>
+  <text x="72" y="468" fill="#9BCBFF" font-family="'SF Mono', ui-monospace, monospace" font-size="10" font-weight="700">05 · AUREL STUDIO &amp; ACCOUNT FOUNDATION</text>
+  <text x="72" y="492" fill="#F5F8FF" font-family="-apple-system, sans-serif" font-size="14">Create Story · Create Post · Create &amp; Publish Clip · AI Disclosure Toggles · Universal Search · Light &amp; Midnight Dark Liquid Glass</text>
+</svg>
